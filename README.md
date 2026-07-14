@@ -7,7 +7,7 @@ Custom Rocket Flight Controller
 | :--- | :---: | :--- | :--- | :--- |
 | **Custom PCB Manufacture** | 2 | The actual circuit board to solder everything on. Ordered via JLCPCB standard 4-layer service. | ~$ | [JLCPCB](https://jlcpcb.com) |
 | **2S battery** | 1 | Power source / The whole pcb and pyros will get power from this. | 12.77$ | [Allegro](https://allegro.cz/produkt/akumulator-lipo-tattu-hv-550mah-2s-7-6v-xt30-dac8961b-6a7f-4425-9fd0-e271a79d3002?offerId=17837986320) |
-| **HOTA D6 Pro Charger** | 1 | Dual-channel AC/DC LiPo charger for safe, balanced battery maintenance and preparation. | ~$110 | [HobbyDrone.cz](https://www.hobbydrone.cz/cs/charger-hota-d6-pro-325w-15a-1-6s-dual-ac-dc/) |
+| **HOTA D6 Pro Charger** | 1 | Dual-channel AC/DC LiPo charger for safe, balanced battery maintenance and preparation. | 121,57$ | [HobbyDrone.cz](https://www.hobbydrone.cz/cs/charger-hota-d6-pro-325w-15a-1-6s-dual-ac-dc/) |
 | **GEPRC GEP-M1025-DQ GPS** | 1 | High-precision positioning data (u-blox M10) with integrated QMC5883L compass and backup DPS310 barometer. | $19.80 | [Banggood](https://www.banggood.com/cs/GEPRC-GEP-M1025-Series-M10-Chip-GPS-Module-for-RC-Drone-FPV-Racing-Helicopter-Quadcopter-RC-Airplane-Car-p-2000868.html?cur_warehouse=CN&ID=6324596&rmmds=search) |
 
 ### Manual Assembly Components (LCSC.com)
