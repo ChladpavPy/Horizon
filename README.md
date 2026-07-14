@@ -5,6 +5,16 @@ Custom Rocket Flight Controller
 
 | Component | Qty | Purpose / Description | Price (USD) | Link / Distributor |
 | :--- | :---: | :--- | :--- | :--- |
-| **Custom PCB Manufacture** | 5 | The actual circuit board to solder everything on. Ordered via JLCPCB standard 4-layer service. | ~$| [JLCPCB](https://jlcpcb.com) |
+| **Custom PCB Manufacture** | 5 | The actual circuit board to solder everything on. Ordered via JLCPCB standard 4-layer service. | ~$ | [JLCPCB](https://jlcpcb.com) |
 | **2S battery** | 1 | Power source / The whole pcb and pyros will get power from this. | 12.77$ | [Allegro](https://allegro.cz/produkt/akumulator-lipo-tattu-hv-550mah-2s-7-6v-xt30-dac8961b-6a7f-4425-9fd0-e271a79d3002?offerId=17837986320) |
-| **SKY RC B6AC neo 200W, HOTA T6 PD 300W, HOTA D6 Pro** | 1 | Main microcontroller / brain for the macropad. Small footprint, plenty of GPIOs. | ~$ | []() |
+| **Charger (SKY RC/HOTA)** | 1 | LiPo battery charger for maintenance and preparation. | ~$ | []() |
+
+### Manual Assembly Components (LCSC)
+*Note: Due to the high complexity and cost of standard PCBA services for LGA-type sensors, these components are ordered separately and will be manually reflow soldered using a stencil and hot plate.*
+
+| Component | Qty | Purpose / Description | Price (USD) | LCSC Part # |
+| :--- | :---: | :--- | :--- | :--- |
+| **ADXL372BCCZ-RL7** | 3 | High-g accelerometer (200g) for impact detection. | 53.11$ | C579465 |
+| **BMP580** | 5 | Precision barometric pressure sensor. | 5.96$ | C22391138 |
+| **TPS54525PWPR** | 5 | High-efficiency buck regulator. | 5.24$ | C140350 |
+| **Total LCSC Cost** | - | - | **65.98$** | - |
