@@ -9,7 +9,7 @@ Custom Rocket Flight Controller
 | **2S battery** | 1 | Power source / The whole pcb and pyros will get power from this. | 12.77$ | [Allegro](https://allegro.cz/produkt/akumulator-lipo-tattu-hv-550mah-2s-7-6v-xt30-dac8961b-6a7f-4425-9fd0-e271a79d3002?offerId=17837986320) |
 | **Charger (SKY RC/HOTA)** | 1 | LiPo battery charger for maintenance and preparation. | ~$ | []() |
 
-### Manual Assembly Components (LCSC)
+### Manual Assembly Components (LCSC.com)
 *Note: Due to the high complexity and cost of standard PCBA services for LGA-type sensors, these components are ordered separately and will be manually reflow soldered using a stencil and hot plate.*
 
 | Component | Qty | Purpose / Description | Price (USD) | LCSC Part # |
