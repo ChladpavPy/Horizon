@@ -9,13 +9,26 @@ I am still not exactly sure what the real specifications for this competition wi
 
 You might notice that parts like the rocket engine, the main body tube, and the deployable parachute are not included in the bom. The parachute will be deployed by the pyro channels that I designed on the board, but these mechanical parts are missing from the BOM because they will very likely be funded and specified by the ČVUT competition with the proper dimensions. For the avionics bay, it does not really matter what the final dimensions are. Because it is just plastic, I can easily redesign it for different tube dimensions and 3D print it again.
 
+## Project Features
+
+* **Microcontroller:** STM32F405RGT6 (64-pin, 32-bit ARM Cortex-M4)
+* **Stackup:** 4-Layer PCB for internal routing and better EMI shielding during flight
+* **Sensors:** ICM-42688-P 6-axis IMU, ADXL372 high-g (200g) accelerometer for launch and impact detection, and dual barometers (BMP580 & MS5611) for precise altitude tracking
+* **Telemetry:** LoRa E22-900M22S module for long-range real-time data transmission
+* **Power:** 2S LiPo main input with high-efficiency TPS54525 step-down regulator
+* **Data Logging:** Onboard W25Q128 128Mbit SPI Flash memory for high-speed flight data recording
+* **Recovery System:** Dedicated pyro channels designed for reliable parachute deployment
+* **Positioning:** Interface for high-precision external GPS (GEPRC GEP-M1025-DQ)
+
+* And more other...
+
 ## Bill of Materials (BOM)
 
 | Component | Qty | Purpose / Description | Price (USD) | Link / Distributor |
 | :--- | :---: | :--- | :--- | :--- |
 | **Custom PCB Manufacture** | 2 | The actual circuit board to solder everything on. Ordered via JLCPCB standard 4-layer service. | 209.53$ | [JLCPCB](https://jlcpcb.com) |
 | **2S battery** | 1 | Power source / The whole pcb and pyros will get power from this. | 12.77$ | [Allegro](https://allegro.cz/produkt/akumulator-lipo-tattu-hv-550mah-2s-7-6v-xt30-dac8961b-6a7f-4425-9fd0-e271a79d3002?offerId=17837986320) |
-| **HOTA D6 Pro Charger** | 1 | Dual-channel AC/DC LiPo charger for safe, balanced battery maintenance and preparation. | 121,57$ | [HobbyDrone.cz](https://www.hobbydrone.cz/cs/charger-hota-d6-pro-325w-15a-1-6s-dual-ac-dc/) |
+| **HOTA D6 Pro Charger** | 1 | Dual-channel AC/DC LiPo charger for safe, balanced battery maintenance and preparation. Without this I would not be able to safely charge the 2S batteries and keep them alive and in good condition, so it does not explode | 121,57$ | [HobbyDrone.cz](https://www.hobbydrone.cz/cs/charger-hota-d6-pro-325w-15a-1-6s-dual-ac-dc/) |
 | **GEPRC GEP-M1025-DQ GPS** | 1 | High-precision positioning data (u-blox M10) with integrated QMC5883L compass and backup DPS310 barometer. | $19.80 | [Banggood](https://www.banggood.com/cs/GEPRC-GEP-M1025-Series-M10-Chip-GPS-Module-for-RC-Drone-FPV-Racing-Helicopter-Quadcopter-RC-Airplane-Car-p-2000868.html?cur_warehouse=CN&ID=6324596&rmmds=search) |
 
 ### Manual Assembly Components (LCSC.com)
