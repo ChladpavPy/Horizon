@@ -22,6 +22,37 @@ You might notice that parts like the rocket engine, the main body tube, and the 
 
 * And more other...
 
+## Gallery
+
+### 3D PCB Render
+![PCB 3D](Images/Horizon.png)
+
+![PCB 3D](Images/Horizon2.png)
+
+![PCB 3D](Images/Horizon3.png)
+
+![PCB 3D](Images/Horizon4.png)
+
+![PCB 3D](Images/Horizon5.png)
+
+### PCB Routing
+![PCB 2D](Images/pcb_f.png)
+
+![PCB 2D](Images/pcb_b.png)
+
+### Schematic
+![Schematic](Images/sch.png)
+
+### Avionics Bay Assembly
+
+![Avionics Bay](Images/avionics_bay.png)
+
+![Avionics Bay](Images/avionics_bay2.png)
+
+![Avionics Bay](Images/avionics_bay3.png)
+
+---
+
 ## Bill of Materials (BOM)
 
 | Component | Qty | Purpose / Description | Price (USD) | Link / Distributor |
