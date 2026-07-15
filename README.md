@@ -45,7 +45,7 @@ You might notice that parts like the rocket engine, the main body tube, and the 
 
 ### Avionics Bay Assembly
 
-![Avionics Bay](Images/avionics_bay.png)
+![Avionics Bay](Images/avionics_bay.PNG)
 
 ![Avionics Bay](Images/avionics_bay2.png)
 
