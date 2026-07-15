@@ -1,6 +1,14 @@
 # Horizon
 Custom Rocket Flight Controller
 
+So first I want to explain, why I started this project. I have always wanted to build my own rocket, but for a long time it was just impossible and senseless. It is generally prohibited to fly with your own custom rockets, there was nowhere to safely test them, and it could be very dangerous. But then I noticed the ČVUT rocketry challenge, where it is actually possible to do it safely and legally.
+
+I also thought about getting some friends or classmates to join this project, which is very likely to happen. We would probably work on the mechanical rocket body together, but I realized that a rocket without a computer is basically just a firework. So it was my idea to design and build my own custom flight computer for this rocket. I also designed the avionics bay to house the electronics.
+
+I am still not exactly sure what the real specifications for this competition will be, because they will probably be published next year in February. But that is actually a big advantage. It means I will have plenty of time to test the flight computer thoroughly and gather a solid team to build the rest of the project. I already did all the hardware and computer work, so we are prepared to fly it.
+
+You might notice that parts like the rocket engine, the main body tube, and the deployable parachute are not included in the bom. The parachute will be deployed by the pyro channels that I designed on the board, but these mechanical parts are missing from the BOM because they will very likely be funded and specified by the ČVUT competition with the proper dimensions. For the avionics bay, it does not really matter what the final dimensions are. Because it is just plastic, I can easily redesign it for different tube dimensions and 3D print it again.
+
 ## Bill of Materials (BOM)
 
 | Component | Qty | Purpose / Description | Price (USD) | Link / Distributor |
