@@ -67,7 +67,7 @@ You might notice that parts like the rocket engine, the main body tube, and the 
 
 | Component | Qty | Purpose / Description | Price (USD) | LCSC Part # |
 | :--- | :---: | :--- | :--- | :--- |
-| **ADXL372BCCZ-RL7** | 2 | High-g accelerometer (200g) for impact detection. | 50.46$ | C579465 |
+| **ADXL372BCCZ-RL7** | 2 | High-g accelerometer (200g) for impact detection. | 35.41$ | C579465 |
 | **BMP580** | 5 | Precision barometric pressure sensor. | 5.96$ | C22391138 |
 | **TPS54525PWPR** | 5 | High-efficiency buck regulator. | 5.24$ | C140350 |
 | **Total LCSC Cost** | - | - | **65.98$** | - |
